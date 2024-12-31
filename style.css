@@ -1,0 +1,52 @@
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
+td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #000;
+}
+.error {
+  background-color: red;
+}
+.hint {
+  cursor: pointer;
+  color: blue;
+  width: 150px;
+  height: 45px;
+}
+#scoreboard {
+  margin: 20px;
+}
+#sudoku-board {
+  display: flex;
+  justify-content: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#tools {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.board-edge-right {
+  border-right: 3px solid black;
+}
+.board-edge-bottom {
+  border-bottom: 3px solid black;
+}
+#lvl {
+  height: 60px;
+  padding: 0%;
+  margin-left: 30px;
+}
+#timeline {
+  margin: 20px;
+}
