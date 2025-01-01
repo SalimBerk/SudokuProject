@@ -94,8 +94,9 @@ function renderBoard() {
     for (let col = 0; col < boardSize; col++) {
       const td = document.createElement("td");
       td.contentEditable = board[row][col] == 0;
+
       if (board[row][col] !== 0) {
-        td.style.backgroundColor = "gray";
+        td.style.backgroundColor = "#CD5C5C";
       }
       td.innerText = board[row][col] || "";
       td.addEventListener("input", (e) => handleInput(e, row, col));

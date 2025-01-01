@@ -1,6 +1,10 @@
 table {
   border-collapse: collapse;
   margin: 20px;
+  background-color: azure;
+}
+body {
+  background-color: #ffa07a;
 }
 td {
   width: 40px;
